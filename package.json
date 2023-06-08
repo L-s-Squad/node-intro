@@ -1,14 +1,16 @@
 {
   "name": "intro-node",
+  "type": "module",
   "version": "1.0.0",
   "description": "This is my first Node project",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "author": "Abhishek",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
   }
 }
